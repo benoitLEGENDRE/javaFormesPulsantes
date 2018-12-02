@@ -1,9 +1,9 @@
 
 
-public class Carre {
+public class Carre2 {
 	MachineTrace m;double posX;double posY; double d;
 	//constructeur
-	Carre(MachineTrace m,double X,double Y){
+	Carre2(MachineTrace m,double X,double Y){
 		this.m=m;
 		posX=X;
 		posY=Y;		

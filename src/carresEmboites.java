@@ -9,7 +9,7 @@ public class carresEmboites {
 		double Y=hauteurFigure/2;
 		double taille=hauteurFigure;
 		for (int i=0;i<n;i+=2) {
-			Carre carre = new Carre(m, -X , - Y);
+			Carre2 carre = new Carre2(m, -X , - Y);
 			carre.fixerTaille(taille);
 			carre.orienter(0);
 			carre.dessiner();
@@ -23,7 +23,7 @@ public class carresEmboites {
 			X=X/2;
 			System.out.println("i= "+i+" X= "+X);
 		    Y=0;
-		    Carre carre2 = new Carre(m, -X , - Y);
+		    Carre2 carre2 = new Carre2(m, -X , - Y);
 		    System.out.println("i= "+i+" taille= "+ TailleBiais);
 			carre2.fixerTaille(TailleBiais);
 			carre2.orienter(-45);

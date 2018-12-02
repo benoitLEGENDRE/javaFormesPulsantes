@@ -16,6 +16,7 @@ public class Carre {
 	}
 	
 	void dessiner(){
+		int l=4;
 		m.placer(posX,posY);
 		m.baisser();
 		for(int i=0;i<4;i++) {

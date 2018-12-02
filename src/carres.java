@@ -10,7 +10,7 @@ class carres {
 		for (int i = 0; i < l; i++)
 			for (int j = 0; j < c; j++) {
 				//j * 2 * d - largeurFigure / 2=-120;-60;0;i * 2 * d - hauteurFigure / 2=-240;-180
-				Carre carre = new Carre(m, j * 2 * d - largeurFigure / 2, i * 2 * d - hauteurFigure / 2);
+				Carre2 carre = new Carre2(m, j * 2 * d - largeurFigure / 2, i * 2 * d - hauteurFigure / 2);
 				carre.fixerTaille(d);
 				carre.dessiner();
 			}
